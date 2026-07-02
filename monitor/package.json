@@ -1,0 +1,13 @@
+{
+  "name": "monitor",
+  "version": "1.0.0",
+  "description": "System monitoring and auto-healing",
+  "main": "monitor.js",
+  "scripts": {
+    "start": "node monitor.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dockerode": "^3.3.5"
+  }
+}
