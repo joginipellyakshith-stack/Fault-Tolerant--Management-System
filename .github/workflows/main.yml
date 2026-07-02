@@ -33,4 +33,5 @@ jobs:
 
     - name: Build Docker Images (Dry Run)
       run: |
-        docker-compose build
+        docker compose build
+
